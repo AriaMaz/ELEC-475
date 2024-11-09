@@ -1,0 +1,19 @@
+Clone The Repo From Terminal
+Mac:
+cd ~/path/to/directory/where/you/want/repo/to/be/cloned
+git clone https://github.com/AriaMaz/ELEC-475.git
+Windows:
+cd "C:\path\to\directory\where\you\want\repo\to\be\cloned"
+git clone https://github.com/AriaMaz/ELEC-475.git
+
+Activate Virtual Environment:
+Mac: source 475env/bin/activate
+Windows: .\475env\Scripts\activate
+
+Note, if you get th error, permission denied on mac do this before activating virtual environment:
+Mac: chmod +x 475env/bin/activate
+
+Commiting changes from terminal
+Mac and Windows:
+git add . && git commit -m "comment outlining what changes you made" && git push origin main
+git add . && git commit -m "added prev lab code and lab 3 files" && git push origin main
