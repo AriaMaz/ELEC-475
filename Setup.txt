@@ -16,4 +16,4 @@ Mac: chmod +x 475env/bin/activate
 Commiting changes from terminal
 Mac and Windows:
 git add . && git commit -m "comment outlining what changes you made" && git push origin main
-git add . && git commit -m "added lab1 files and lab 2 folder" && git push origin main
+git add . && git commit -m "added lab2 files" && git push origin main
