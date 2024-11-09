@@ -1,0 +1,14 @@
+# train.txt
+
+python train.py \
+-d ./Data/oxford-iiit-pet-noses/images-original/images \
+-t ./Data/oxford-iiit-pet-noses/train_noses.txt \
+-v ./Data/oxford-iiit-pet-noses/test_noses.txt \
+-b 16 \
+-e 50 \
+-l 1e-3 \
+-w 0 \
+-a hflip shift \
+-s hflipANDshift.pth \
+-p loss_plot1.png \
+-o outputs

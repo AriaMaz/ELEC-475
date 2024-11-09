@@ -1,0 +1,8 @@
+# test.txt
+
+python test.py \
+-d ./Data/oxford-iiit-pet-noses/images-original/images \
+-l ./Data/oxford-iiit-pet-noses/test_noses.txt \
+-b 1 \
+-m hflipANDshift.pth \
+-o outputs
