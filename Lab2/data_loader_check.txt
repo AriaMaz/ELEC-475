@@ -1,6 +1,6 @@
 # data_loader_check.txt
 
 python data_loader_check.py \
---data_dir /Users/ariamaz/Desktop/2024Fall/ELEC475/Lab2/Data/oxford-iiit-pet-noses/images-original/images \
---labels_file /Users/ariamaz/Desktop/2024Fall/ELEC475/Lab2/Data/oxford-iiit-pet-noses/train_noses.txt \
+--data_dir /Users/ariamaz/Desktop/2024Fall/ELEC475/Lab2/data/oxford-iiit-pet-noses/images-original/images \
+--labels_file /Users/ariamaz/Desktop/2024Fall/ELEC475/Lab2/data/oxford-iiit-pet-noses/train_noses.txt \
 --num_samples 5
