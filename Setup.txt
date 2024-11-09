@@ -1,4 +1,4 @@
-Clone The Repo From Terminal
+Clone The Repo From Terminal:
 Mac:
 cd ~/path/to/directory/where/you/want/repo/to/be/cloned
 git clone https://github.com/AriaMaz/ELEC-475.git
