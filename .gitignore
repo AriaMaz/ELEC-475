@@ -1,2 +1,5 @@
 475env/
 data/
+data/
+*epoch5.pth
+*full.pth
